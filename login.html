@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+  <title>Ideabox</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="index.php" class="logo">Ideabox</a>
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="list-of-ideas.php">List of ideas</a></li>
+        <li><a href="submit.php">Submit an idea</a></li>
+        <li class="button-empty"><a href="login.html">Login</a></li>
+        <li class="button-empty"><a href="signup.php">Sign up</a></li>
+      </ul>
+    </nav>
+  </header>
+    <section class="container">
+      <div class="short-fields">
+        <h1>Login</h1>
+        <form method="post" action="login.php"> 
+          <div class="grey-box">
+            <p>Username</p>
+            <input type="text" name="name">
+            <p>Password</p>
+            <input type="password" name="password">
+            <p class="submit">
+            <input type="submit" value="Login"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+    <p>Don't have an account yet? <a href="signup.php">Sign up</a>
+    <p>Have you <a href="forgotten-password.php">forgotten your username or password?</a></p>
+</body>
+</html>

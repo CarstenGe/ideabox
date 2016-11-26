@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="Share your deep-linked appstack";$url = preg_replace(' ', '-', $url);include'../../includes/idea.php';?></body></html>

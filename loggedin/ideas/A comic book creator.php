@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="A comic book creator";include'../../includes/idea.php';?></body></html>

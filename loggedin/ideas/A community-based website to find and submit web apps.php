@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="A community-based website to find and submit web apps";include'../../includes/idea.php';?></body></html>

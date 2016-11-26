@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="App-for-sharing-recipes";include'../../includes/idea.php';?></body></html>

@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="date-test";include'../../includes/idea.php';?></body></html>

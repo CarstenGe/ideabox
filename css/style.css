@@ -1,0 +1,478 @@
+/******************** ALGEMEEN ***************************/
+body{
+	background: #252525;
+	color:white;
+	margin-top: 20px;
+	margin-left:50px;
+	margin-right: 50px;
+}
+.col-3{
+	float: left;
+	margin: 1%;
+	width: 23%;
+}
+.col-4{
+	float: left;
+	margin: 1%;
+	width: 31%;
+}
+.col-5{
+	float: left;
+	margin: 1%;
+	width: 41.25%;
+}
+.col-6{
+	float: left;
+	margin: 1%;
+	width: 48%;
+}
+.col-8{
+	float: left;
+	margin: 1%;
+	width: 63%;
+}
+.col-9{
+	float: left;
+	margin: 1%;
+	width: 73%;
+}
+h1, h3, h4{
+	color: #45a4ba;
+}
+h1 {
+	font-size: 26px;
+}
+h4{
+	margin-bottom: -10px;
+   	margin-top: 15px;
+}
+a {
+	color: #70cde5;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover{
+	color:#45a4ba;
+}
+li{
+	list-style-type: none;
+}
+input,
+textarea, 
+select {
+	border:none;
+	border-radius: 5px;
+	padding: 5px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea, 
+select{
+	width: 300px;
+}
+.short-fields input[type="text"],
+.short-fields input[type="password"],
+.short-fields input[type="email"]{
+	width: 150px !important;
+}
+input[type="submit"]{
+	background-color: #45a4ba;
+	border:none;
+	color: white;
+	font-weight: bold;
+	padding:5px;
+}
+input[type="submit"]:hover{
+	background-color: white;
+	color: #45a4ba;
+	cursor: pointer;
+}
+.button-full{
+	background-color: #45a4ba;
+    border: medium none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.button-full:hover{
+	background-color: white;
+	color: #45a4ba;
+	cursor: pointer;
+}
+.button-1{
+	margin-bottom: 20px;
+	width: 150px;
+}
+.button-2{
+	margin-top: 15px;
+	width: 150px;
+}
+.cancel-button {
+	border-radius: 5px;
+    float: right;
+    margin-right: 220px;
+    margin-top: 0;
+    width: 50px;
+}
+.cancel-button a{
+	color: white;
+}
+.cancel-button a:hover{
+	color: #45a4ba;
+}
+.grey-box{
+	background: #3b3b3a; 
+	background: linear-gradient(top, #555 0%, #333 100%);  
+	background: -moz-linear-gradient(top, #555 0%, #333 100%); 
+	background: -webkit-linear-gradient(top, #555 0%,#333 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+@media screen and (max-width: 500px){
+	h1{
+		font-size: 20px;
+	}
+	input[type="text"],
+	textarea, 
+	select{
+		width: 75%;
+	}
+}
+/********************** HEADER ************************/
+header {
+	margin-bottom: 50px;
+}
+.logo{
+	color: #45a4ba;
+	font-size: 48px;
+	text-shadow: 1px 1px black;
+}
+header ul{
+	float: right;
+	margin-top: -30px;
+	margin-right: 15px;
+}
+header ul a{
+	color: white;
+	font-size: 18px;
+}
+header ul li{
+	float: left;
+	list-style-type: none;
+	margin-right: 20px;
+}
+.button-empty{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: -5px;
+}
+.button-empty:hover{
+	background-color: #45a4ba;
+	border: 1px solid #497c18;
+}
+.button-empty a:hover{
+	color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: none;
+    margin-top:20px;
+    min-width: 130px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	color: #45a4ba;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media screen and (max-width: 750px){
+	header img{
+		height: 30px;
+	}
+	header nav{
+		float: none;
+		margin-top: 30px !important;
+	}
+}
+@media screen and (max-width: 500px){
+	header nav{
+		float: left;
+		margin-left: -40px !important;
+	}
+	header ul a{
+		font-size: 16px;
+	}
+}
+/********************** INDEX ************************/
+.slider-text{
+	top: 150px;
+	position: absolute;
+	text-align:center;
+}
+.slider-text h1{
+	font-size: 72px;
+	/*color: white;*/
+	text-shadow: 1px 1px black;
+}
+.slider-text p{
+	font-size: 60px;
+	text-shadow: 1px 1px black;
+	width: 60%;
+	margin-left: 20%;
+}
+@media screen and (max-width: 1485px){
+	.slider-text h1{
+		font-size: 60px;
+	}
+	.slider-text p{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 1150px){
+	.slider-text h1{
+		font-size: 30px;
+	}
+	.slider-text p{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 500px){
+	.slider-text h1{
+		display: none;
+	}
+	.slider-text p{
+		display: none;
+	}
+	.slider-text{
+		left: 49%;
+	}
+}
+#photos img {
+	border-radius: 5px;
+  display: none;
+  margin-left: 1%;
+  width: 97%;
+}
+#photos .show {
+  display: inline;
+}
+.signup-btn{
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+}
+#list-fields-home{
+	margin-bottom: 15px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.index-content ul{
+	margin-left: -20px;
+}
+.index-content ul li{
+	list-style-type: circle;
+}
+.short-fields .grey-box{
+	width: 175px;
+}
+.signup .grey-box,
+.edit{
+	padding-bottom: 10px;
+	width: 310px;
+}
+.submit{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 300px;
+}
+.submit-loggedin{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 325px;
+}
+@media screen and (max-width: 500px){
+	.index-content{
+		width: 100%;
+	}
+}
+/********************** SIGN UP ************************/
+#g-recaptcha{
+	width: 100px;
+}
+/********************** LIST OF IDEAS ************************/
+#category-menu li{
+	float: left;
+	list-style-type: none;
+}
+#category-menu a{
+	margin-right: 10px;
+}
+.list-disclaimer{
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+}
+#list-fields{
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 31%;
+}
+@media screen and (max-width: 1000px){
+	#list-fields{
+		width: 45%;
+	}
+}
+@media screen and (max-width: 875px){
+	#list-fields{
+		width: 45%;
+	}
+}
+@media screen and (max-width: 600px){
+	#list-fields{
+		width: 99%;
+	}
+}
+@media screen and (max-width: 500px){
+	#category-menu a{
+		clear: both;
+	}
+	.list-disclaimer{
+		margin-left: 15%;
+		margin-top: 50px;
+		width: 70%;
+	}
+}
+/********************** IDEA ************************/
+.idea-edit-delete{
+	float: left;
+    margin-left: 2%;
+    width: 150px;
+}
+
+.idea-edit-delete a{
+	margin-right: 10px;
+}
+.idea-action-fields form textarea{
+	margin-bottom: 50px;
+	width: 95% !important;
+}
+.idea-action-fields input[type="submit"]{
+	float: right;
+	margin-right: 3%;
+	margin-top: -40px;
+}
+.idea-buttons{
+	margin-top: 45px;
+}
+@media screen and (max-width: 500px){
+	#idea-action{
+		width: 100%;
+	}
+}
+/********************** DELETE IDEA ************************/
+.delete-idea input[type="submit"]{
+	background-color: red;
+	float: left;
+}
+.delete-idea input[type="submit"]:hover{
+	background-color: white;
+	color: red;
+}
+.delete-button {
+    background-color: #45a4ba;
+    border: medium none;
+    border-radius: 5px;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 90px;
+}
+.delete-button:hover{
+	background-color: white;
+	color: #45a4ba !important;
+	cursor: pointer;
+}
+.delete-button a{
+	color: white;
+}
+.delete-button a:hover{
+	color: #45a4ba;
+}
+/********************** ACCOUNT ************************/
+#account-column-rows{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:10px;
+	padding-right: 10px;
+}
+#account-column-rows:nth-child(even){
+	background-color: #252525;
+	border-radius: 5px;
+}
+.notification p{
+	padding-left:10px;
+	padding-right: 10px;
+}
+.notification p:nth-child(even){
+	background-color: #252525;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#account-edit{
+	float: right;
+}
+#account-edit a{
+	margin-left:10px;
+}
+.account{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.profile-pic{
+	border-radius: 5px;
+	height: 150px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 150px;
+}

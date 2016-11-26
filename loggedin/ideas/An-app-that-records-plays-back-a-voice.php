@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="An-app-that-records-plays-back-a-voice";include'../../includes/idea.php';?></body></html>

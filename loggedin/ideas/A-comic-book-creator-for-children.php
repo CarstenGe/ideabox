@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="A-comic-book-creator-for-children";include'../../includes/idea.php';?></body></html>

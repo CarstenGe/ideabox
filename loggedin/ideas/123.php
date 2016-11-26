@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="123";include'../../includes/idea.php';?></body></html>

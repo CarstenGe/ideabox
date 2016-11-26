@@ -1,0 +1,1 @@
+<?php include'../../includes/header-ideas.php';$url="don-t";include'../../includes/idea.php';?></body></html>
